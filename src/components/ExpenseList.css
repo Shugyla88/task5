@@ -1,0 +1,43 @@
+.expense-list-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .expense-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
+  
+  .expense-name {
+    flex: 2;
+  }
+  
+  .expense-amount {
+    flex: 1;
+  }
+  
+  .expense-date {
+    flex: 1;
+  }
+  
+  button {
+    background-color: #1cac09;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1fc71f;
+  }
